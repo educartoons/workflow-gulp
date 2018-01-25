@@ -1,0 +1,54 @@
+
+.listCards{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  &-card{
+    @include span(2 of 10);
+    &:nth-child(5n+1){
+      @include span(2 of 10 last);
+    }
+    img{
+      width: 100%;
+    }
+    @include susy-breakpoint($tablet){
+      @include span(3 of 9);
+      &:nth-child(5n+1){
+        @include span(3 of 9);
+      }
+      &:nth-child(3n+1){
+        @include span(3 of 9 last);
+      }
+    }
+    @include susy-breakpoint($phone){
+      @include span(full);
+      &:nth-child(5n+1){
+        @include span(full);
+      }
+      &:nth-child(3n+1){
+        @include span(full);
+      }
+    }
+  }
+}
+
+.squares{
+  &-square{
+    box-sizing: border-box;
+    height: 400px;
+    @include span(4 of $layout_devided_three);
+    &--yellow{
+      background-color: yellow;
+    }
+    &--red{
+      background-color: red;
+    }
+    &--green{
+      background-color: green;
+    }
+    @include susy-breakpoint($phone){
+      @include span(full);
+    }
+  }
+}

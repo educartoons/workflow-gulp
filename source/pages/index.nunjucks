@@ -1,0 +1,30 @@
+
+{% extends 'layout.nunjucks' %}
+
+{% block content %}
+
+<div class="container">
+  <ul class="listCards">
+    <li class="listCards-card"><img src="http://www.yugioh-card.com/uk/news/images/ycs_turin_card6.png" alt=""> </li>
+    <li class="listCards-card"><img src="http://www.yugioh-card.com/uk/news/images/ycs_turin_card6.png" alt=""> </li>
+    <li class="listCards-card"><img src="http://www.yugioh-card.com/uk/news/images/ycs_turin_card6.png" alt=""> </li>
+    <li class="listCards-card"><img src="http://www.yugioh-card.com/uk/news/images/ycs_turin_card6.png" alt=""> </li>
+    <li class="listCards-card"><img src="http://www.yugioh-card.com/uk/news/images/ycs_turin_card6.png" alt=""> </li>
+    <li class="listCards-card"><img src="http://www.yugioh-card.com/uk/news/images/ycs_turin_card6.png" alt=""> </li>
+    <li class="listCards-card"><img src="http://www.yugioh-card.com/uk/news/images/ycs_turin_card6.png" alt=""> </li>
+    <li class="listCards-card"><img src="http://www.yugioh-card.com/uk/news/images/ycs_turin_card6.png" alt=""> </li>
+    <li class="listCards-card"><img src="http://www.yugioh-card.com/uk/news/images/ycs_turin_card6.png" alt=""> </li>
+    <li class="listCards-card"><img src="http://www.yugioh-card.com/uk/news/images/ycs_turin_card6.png" alt=""> </li>
+  </ul>
+</div>
+
+<div class="container">
+  <div class="squares">
+    <div class="squares-square squares-square--yellow">asd</div>
+    <div class="squares-square squares-square--green">ad</div>
+    <div class="squares-square squares-square--red">ads</div>
+  </div>
+</div>
+
+
+{% endblock %}

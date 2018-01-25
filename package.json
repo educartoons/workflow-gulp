@@ -1,0 +1,31 @@
+{
+  "name": "workshop-gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "concat": "^1.0.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-newer": "^1.4.0",
+    "gulp-nunjucks-render": "^2.2.2",
+    "gulp-sass": "^3.1.0",
+    "merge": "^1.2.0",
+    "merge-stream": "^1.0.1",
+    "susy": "^2.2.12"
+  },
+  "scripts": {
+    "app": "npm install && node node_modules/bower/bin/bower install && node node_modules/gulp/bin/gulp build && node node_modules/gulp/bin/gulp server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node node_modules/gulp/bin/gulp build",
+    "server": "node node_modules/gulp/bin/gulp server",
+    "bower": "node node_modules/bower/bin/bower",
+    "node-dep": "npm install",
+    "bower-install": "node node_modules/bower/bin/bower install"
+  },
+  "author": "",
+  "license": "ISC"
+}

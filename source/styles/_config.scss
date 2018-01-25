@@ -1,0 +1,16 @@
+$phone: max-width 425px;
+$tablet: max-width 768px;
+
+$susy: (
+  container: 920px,
+  global-box-sizing: border-box,
+);
+
+$layout_devided_three: layout(12 0 fluid float inside);
+
+.container{
+  @include container;
+  @include susy-breakpoint($tablet){
+    width: 98%;
+  }
+}
