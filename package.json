@@ -25,7 +25,7 @@
     "server": "node node_modules/gulp/bin/gulp server",
     "bower": "node node_modules/bower/bin/bower",
     "node-dep": "npm install",
-    "bower-install": "node node_modules/bower/bin/bower install"
+    "bower-install": "node node_modules/bower/lib/bin/bower install"
   },
   "author": "",
   "license": "ISC"

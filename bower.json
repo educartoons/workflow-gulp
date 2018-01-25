@@ -1,0 +1,21 @@
+{
+  "name": "workshop-gulp",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Eduar Apaza Yanez <educartoons@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/educartoons/workflow-gulp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-scss": "^3.0.3",
+    "owl.carousel": "^2.2.1"
+  }
+}
